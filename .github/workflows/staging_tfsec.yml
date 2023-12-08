@@ -7,7 +7,7 @@ name: tfsec
 
 on:
   push:
-    branches: [ "dev", "staging"]
+    branches: [ "dev", "stage"]
     paths: 
     - staging/**
   pull_request:
